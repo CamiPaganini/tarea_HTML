@@ -15,9 +15,26 @@
         <label for="pwd">Password:</label>
         <input type="password" id="pwd" name="pwd" minlength="8"/>
         <br>
-        <input type="button" value="Hola Mundo" onclick= "HolaMundo();"/>
+        <input type="button" value="Hola Mundo" onclick= "HolaMundo();"/><br/><br/><br/>
+        <input id= "txtNumero1" type= "text"/><br/>
+        <input id= "txtNumero2" type= "txt"/><br/>
+        <label id= "lblResultado"></label><br/>
+        <input id="btnSumar" type="button" value="Sumar" onclick="sumar();"/><br/>
+
+
     </body>    
     <script>
+        function sumar()
+        {
+            var numero1 = document.getElementById("txtNumero1");
+            var numero2 = document.getElementById("txtNumero2");
+            var resultado = document.getElementById("lblResultado");
+
+            resultado.innerText = parseInt(numero1.value) + parseInt(numero2.value);
+        }
+       
+       
+       
         function HolaMundo()
         {
             alert("Hola Mundo!");
