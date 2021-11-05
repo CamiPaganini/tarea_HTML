@@ -20,6 +20,7 @@
         <input id= "txtNumero2" type= "txt"/><br/>
         <label id= "lblResultado"></label><br/>
         <input id="btnSumar" type="button" value="Sumar" onclick="sumar();"/><br/>
+        <input type="button" value="1" id="Cammy" onclick= "Comida();"/>
 
 
     </body>    
@@ -33,7 +34,12 @@
             resultado.innerText = parseInt(numero1.value) + parseInt(numero2.value);
         }
        
-       
+        function Comida()
+        {
+            var comer = document.getElementById("Cammy");
+            comer.value = parseInt(comer.value) + 1;
+            
+        }       
        
         function HolaMundo()
         {
