@@ -23,29 +23,6 @@
         <input type="button" value="1" id="Cammy" onclick= "Comida();"/>
 
 
-    </body>    
-    <script>
-        function sumar()
-        {
-            var numero1 = document.getElementById("txtNumero1");
-            var numero2 = document.getElementById("txtNumero2");
-            var resultado = document.getElementById("lblResultado");
-
-            resultado.innerText = parseInt(numero1.value) + parseInt(numero2.value);
-        }
-       
-        function Comida()
-        {
-            var comer = document.getElementById("Cammy");
-            comer.value = parseInt(comer.value) + 1;
-
-        }       
-       
-        function HolaMundo()
-        {
-            alert("Hola Mundo!");
-        }
-
         <table>
             <tr>
               <th>Articulo</th>
@@ -95,6 +72,33 @@
 
             
           </table>
+
+
+
+    </body>    
+    <script>
+        function sumar()
+        {
+            var numero1 = document.getElementById("txtNumero1");
+            var numero2 = document.getElementById("txtNumero2");
+            var resultado = document.getElementById("lblResultado");
+
+            resultado.innerText = parseInt(numero1.value) + parseInt(numero2.value);
+        }
+       
+        function Comida()
+        {
+            var comer = document.getElementById("Cammy");
+            comer.value = parseInt(comer.value) + 1;
+
+        }       
+       
+        function HolaMundo()
+        {
+            alert("Hola Mundo!");
+        }
+
+    
 
     </script>
 </html>
