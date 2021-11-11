@@ -156,16 +156,16 @@
             var total_fila9 = document.getElementById("total_fila9");
             var total_fila10 = document.getElementById("total_fila10");
 
-            total_fila1.value = parseInt(totalprecio1.value) * parseInt(cantidad_fila1.value);
-            total_fila2.value = parseInt(totalprecio2.value) * parseInt(cantidad_fila2.value);
-            total_fila3.value = parseInt(totalprecio3.value) * parseInt(cantidad_fila3.value);
-            total_fila4.value = parseInt(totalprecio4.value) * parseInt(cantidad_fila4.value);
-            total_fila5.value = parseInt(totalprecio5.value) * parseInt(cantidad_fila5.value);
-            total_fila6.value = parseInt(totalprecio6.value) * parseInt(cantidad_fila6.value);
-            total_fila7.value = parseInt(totalprecio7.value) * parseInt(cantidad_fila7.value);
-            total_fila8.value = parseInt(totalprecio8.value) * parseInt(cantidad_fila8.value);
-            total_fila9.value = parseInt(totalprecio9.value) * parseInt(cantidad_fila9.value);
-            total_fila10.value = parseInt(totalprecio10.value) * parseInt(cantidad_fila10.value);
+            total_fila1.innerText = parseInt(totalprecio1.innerText.replace('$','')) * parseInt(cantidad_fila1.value);
+            total_fila2.innerText = parseInt(totalprecio2.innerText.replace('$','')) * parseInt(cantidad_fila2.value);
+            total_fila3.innerText = parseInt(totalprecio3.innerText.replace('$','')) * parseInt(cantidad_fila3.value);
+            total_fila4.innerText = parseInt(totalprecio4.innerText.replace('$','')) * parseInt(cantidad_fila4.value);
+            total_fila5.innerText = parseInt(totalprecio5.innerText.replace('$','')) * parseInt(cantidad_fila5.value);
+            total_fila6.innerText = parseInt(totalprecio6.innerText.replace('$','')) * parseInt(cantidad_fila6.value);
+            total_fila7.innerText = parseInt(totalprecio7.innerText.replace('$','')) * parseInt(cantidad_fila7.value);
+            total_fila8.innerText = parseInt(totalprecio8.innerText.replace('$','')) * parseInt(cantidad_fila8.value);
+            total_fila9.innerText = parseInt(totalprecio9.innerText.replace('$','')) * parseInt(cantidad_fila9.value);
+            total_fila10.innerText = parseInt(totalprecio10.innerText.replace('$','')) * parseInt(cantidad_fila10.value);
            
 
         }
