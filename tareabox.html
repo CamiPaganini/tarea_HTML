@@ -98,7 +98,10 @@
           <input type="button" value="Calcular" id="Calculo" onclick= "Calcular();"/>
 
 
-    </body>    
+    </body> 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script>
         function sumar()
         {
@@ -123,38 +126,54 @@
 
         function Calcular()
         {
-            const totalprecio1 = document.getElementById("precio1");
-            const totalprecio2 = document.getElementById("precio2");
-            const totalprecio3 = document.getElementById("precio3"); 
-            const totalprecio4 = document.getElementById("precio4");
-            const totalprecio5 = document.getElementById("precio5");
-            const totalprecio6 = document.getElementById("precio6");
-            const totalprecio7 = document.getElementById("precio7");
-            const totalprecio8 = document.getElementById("precio8");
-            const totalprecio9 = document.getElementById("precio9");
-            const totalprecio10 = document.getElementById("precio10");
+            const totalprecio1 = $("#precio1");
+            const totalprecio2 = $("#precio2");
+            const totalprecio3 = $("#precio3");
+            const totalprecio4 = $("#precio4");
+            const totalprecio5 = $("#precio5");
+            const totalprecio6 = $("#precio6");
+            const totalprecio7 = $("#precio7");
+            const totalprecio8 = $("#precio8");
+            const totalprecio9 = $("#precio9");
+            const totalprecio10 = $("#precio10");
 
-            const cantidad_fila1 = document.getElementById("cantidad_fila1");
-            const cantidad_fila2 = document.getElementById("cantidad_fila2");
-            const cantidad_fila3 = document.getElementById("cantidad_fila3");
-            const cantidad_fila4 = document.getElementById("cantidad_fila4");
-            const cantidad_fila5 = document.getElementById("cantidad_fila5");
+            const cantidad_fila1 = $("#cantidad_fila1");
+            const cantidad_fila2 = $("#cantidad_fila2");
+            const cantidad_fila3 = $("#cantidad_fila3");
+            const cantidad_fila4 = $("#cantidad_fila4");
+            const cantidad_fila5 = $("#cantidad_fila5");
+            const totalprecio1 = $("#cantidad5");
             const cantidad_fila6 = document.getElementById("cantidad_fila6");
+            const totalprecio1 = $("#cantidad6");
             const cantidad_fila7 = document.getElementById("cantidad_fila7");
+            const totalprecio1 = $("#cantidad7");
             const cantidad_fila8 = document.getElementById("cantidad_fila8");
+            const totalprecio1 = $("#cantidad8");
             const cantidad_fila9 = document.getElementById("cantidad_fila9");
+            const totalprecio1 = $("#cantidad9");
             const cantidad_fila10 = document.getElementById("cantidad_fila10");
+            const totalprecio1 = $("#cantidad10");
 
             const total_fila1 = document.getElementById("total_fila1");
+            const totalprecio1 = $("#total1");
             const total_fila2 = document.getElementById("total_fila2");
+            const totalprecio1 = $("#total2");
             const total_fila3 = document.getElementById("total_fila3");
+            const totalprecio1 = $("#total3");
             const total_fila4 = document.getElementById("total_fila4");
+            const totalprecio1 = $("#total4");
             const total_fila5 = document.getElementById("total_fila5");
+            const totalprecio1 = $("#total5");
             const total_fila6 = document.getElementById("total_fila6");
+            const totalprecio1 = $("#total6");
             const total_fila7 = document.getElementById("total_fila7");
+            const totalprecio1 = $("#total7");
             const total_fila8 = document.getElementById("total_fila8");
+            const totalprecio1 = $("#total8");
             const total_fila9 = document.getElementById("total_fila9");
+            const totalprecio1 = $("#total9");
             const total_fila10 = document.getElementById("total_fila10");
+            const totalprecio1 = $("#total10");
 
             total_fila1.innerText = parseInt(totalprecio1.innerText.replace('$','')) * parseInt(cantidad_fila1.value);
             total_fila2.innerText = parseInt(totalprecio2.innerText.replace('$','')) * parseInt(cantidad_fila2.value);
@@ -170,8 +189,9 @@
 
         }
 
+
     </script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
     
 </html>
